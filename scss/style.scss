@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    position: relative;
     width: 100%;
     height: 100vh;
     padding: 4rem;
@@ -21,17 +22,25 @@ header {
     color: rgb(238, 185, 185);
     border: 1px solid red;
     h1 {
+        position: relative;
+        max-width: 14rem;
         font-size: 5rem;
         font-weight: 500;
         .solutions {
+            position: absolute;
+            top: 5rem;
+            left: 8rem;
             font-size: 3rem;
             font-weight: 300;
         }
     }
     .mobile-header {
+        position: absolute;
+        top: 15rem;
+        right: 2rem;
         width: 33rem;
         height: 40rem;
         background: url('../assets/img/mobile-header.png') center/cover;
-        border: 1px solid red;
+        // border: 1px solid red;
     }
 }
